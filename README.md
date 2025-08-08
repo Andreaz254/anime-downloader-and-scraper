@@ -47,7 +47,7 @@ Perfect for anime enthusiasts who want to download episodes without manual brows
 ### 1️⃣ Install System Dependencies
 
 ```bash
-sudo apt update && sudo apt install -y bash curl grep python3 python3-pip chromium
+sudo apt update && sudo apt install -y bash curl grep python3 python3-pip chromium aria2c
 ```
 2️⃣ Install Google Chrome (if not already installed)
 ```bash
@@ -66,7 +66,7 @@ sudo chmod +x /usr/local/bin/chromedriver
 ```
 4️⃣ Install Python Dependencies
 ```bash
-pip3 install selenium chromedriver-autoinstaller webdriver-manager --break-system-packages
+pip3 install selenium chromedriver-autoinstaller webdriver-manager pycryptodome --break-system-packages
 ```
 If you get a PATH warning, add the following to your shell configuration:
 
