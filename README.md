@@ -77,9 +77,8 @@ source ~/.zshrc
 
 3️⃣ Download the repository
 
-`git clone https://github.com/yourusername/aniwave-kwik-downloader.git
-cd aniwave-kwik-downloader`
-
+`git clone https://github.com/Andreaz254/anime-downloader-and-scraper.git`
+`cd anime-downloader-and-scraper`
 
 5️⃣ Make the script executable
 
