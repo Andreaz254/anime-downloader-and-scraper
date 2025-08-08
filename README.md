@@ -62,7 +62,18 @@ Follow these steps to set up on Ubuntu / Kali / Debian systems.
 
 2️⃣ Install required Python packages
 
-`pip3 install selenium chromedriver-autoinstaller webdriver-manager`
+`pip3 install selenium chromedriver-autoinstaller webdriver-manager --break-system-packages`
+If you get this warning
+WARNING: The script chromedriver-path is installed in '/home/andreas/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Run 
+For Bash:
+`echo 'export PATH="$PATH:/home/andreas/.local/bin"' >> ~/.bashrc
+source ~/.bashrc`
+For Zsh:
+`echo 'export PATH="$PATH:/home/andreas/.local/bin"' >> ~/.zshrc
+source ~/.zshrc
+`
 
 3️⃣ Download the repository
 
