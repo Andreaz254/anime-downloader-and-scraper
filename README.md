@@ -81,7 +81,10 @@ cd aniwave-kwik-downloader`
 
 
 📸 Screenshot
-<p align="center"> <img src="https://via.placeholder.com/800x400.png?text=Terminal+Preview" alt="Terminal Preview"> </p>
+<p align="center">
+  <img src="./terminal-preview.png" alt="Terminal Preview" width="800">
+</p>
+
 🛠 Troubleshooting
 Issue	Solution
 chromedriver not found	Install chromedriver-autoinstaller or manually download matching driver version.
