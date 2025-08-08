@@ -59,6 +59,30 @@ Follow these steps to set up on Ubuntu / Kali / Debian systems.
 1️⃣ Install system dependencies
 -Bash
 `sudo apt update && sudo apt install bash curl grep python3 python3-pip chromium -y`
+GOOGLE-CHROME
+#Download
+`wget https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.66/linux64/chrome-linux64.zip`
+#Unzip
+`unzip chrome-linux64.zip`
+#Move Chrome folder to /opt
+`sudo mv chrome-linux64 /opt/google-chrome`
+
+#Make sure it's executable
+`sudo chmod +x /opt/google-chrome/chrome`
+
+#Create a symlink so 'google-chrome' works globally
+`sudo ln -sf /opt/google-chrome/chrome /usr/bin/google-chrome`
+CHROME-WEBDRIVER
+#Download
+`wget https://storage.googleapis.com/chrome-for-testing-public/139.0.7258.66/linux64/chromedriver-linux64.zip`
+#Unzip chromedriver-linux64.zip
+`unzip chromedriver-linux64.zip`
+#move /usr/local/bin
+`sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver`
+#Make it executable
+`sudo chmod +x /usr/local/bin/chromedriver`
+
+
 
 2️⃣ Install required Python packages
 
