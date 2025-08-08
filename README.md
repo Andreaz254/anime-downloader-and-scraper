@@ -79,13 +79,6 @@ cd aniwave-kwik-downloader`
 
 ./downloader.sh
 
-🚀 Usage
-
-    If your token/session is valid, the script will proceed to fetch download links.
-
-    If expired, it launches a headless Chrome to get fresh values automatically.
-
-    Direct links are printed in the terminal and can be piped to a downloader like aria2c or wget.
 
 📸 Screenshot
 <p align="center"> <img src="https://via.placeholder.com/800x400.png?text=Terminal+Preview" alt="Terminal Preview"> </p>
