@@ -47,7 +47,7 @@ Perfect for anime enthusiasts who want to download episodes without manual brows
 ### 1️⃣ Install System Dependencies
 
 ```bash
-sudo apt update && sudo apt install -y bash curl grep python3 python3-pip chromium aria2c
+sudo apt update && sudo apt install -y bash curl grep python3 python3-pip chromium aria2
 ```
 2️⃣ Install Google Chrome (if not already installed)
 ```bash
