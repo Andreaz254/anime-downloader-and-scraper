@@ -58,8 +58,7 @@ Follow these steps to set up on Ubuntu / Kali / Debian systems.
 
 1️⃣ Install system dependencies
 -Bash
-`sudo apt update
-sudo apt install bash curl grep python3 python3-pip chromium-browser -y`
+`sudo apt update && sudo apt install bash curl grep python3 python3-pip chromium -y`
 
 2️⃣ Install required Python packages
 
