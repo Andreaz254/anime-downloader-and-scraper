@@ -103,4 +103,4 @@ Permission denied errors	Run chmod +x on the script and ensure proper file permi
 📝 License
 
 This project is licensed under the MIT License.
-<p align="center"> Made with ❤️ by anime lovers, for anime lovers. </p> ```
+<p align="center"> Made with  zeal by Andreas, enjoy yourself. </p> ```
