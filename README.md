@@ -93,8 +93,8 @@ chmod +x downloader.sh
 ./downloader.sh
 ```
 📸 Preview
-<p align="center"> <img src="./terminal-preview.png" alt="Terminal Preview" width="800"> </p>
-<p align="center"> <img src="./terminal-preview1.png" alt="Terminal Preview" width="800"> </p>
+<p align="center"> KALI <img src="./terminal-preview.png" alt="Terminal Preview" width="800"> </p>
+<p align="center"> PARROT <img src="./terminal-preview1.png" alt="Terminal Preview" width="800"> </p>
 🛠 Troubleshooting
 Issue	Solution
 chromedriver not found	Run pip3 install chromedriver-autoinstaller or manually install matching driver version
